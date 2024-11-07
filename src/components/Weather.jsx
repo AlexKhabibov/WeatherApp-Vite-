@@ -16,7 +16,7 @@ function Weather() {
     const getWeather = () => {
         if (!city) return;
 
-        const myAppkeyFromSite = 'cd7d02462b5bcac40755e1433681148a';
+        const myAppkeyFromSite = '';
         const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${myAppkeyFromSite}`;
 
         axios.get(apiUrl)
